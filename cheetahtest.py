@@ -1,10 +1,7 @@
-#!/usr/bin/env python
+#!/opt/local/bin/python
 
 from Cheetah.Template import Template
 
-t = Template(file="cheetahtest.tmpl")
+t = Template(file="comandline_example.tmpl")
 
 print t
-
-t2 = Template("This is a thing unlike any other thing")
-print t2
