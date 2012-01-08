@@ -1,6 +1,8 @@
-#include <stdio.h>
+\#include <stdio.h>
 
 int main(int arc, char** argv) {
-  printf("Hello, world!\n");
+#for name in self.namelist:
+  printf("Hello, $name!\n");
+#end for
   return(0);
 }
