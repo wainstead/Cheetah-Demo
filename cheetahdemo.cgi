@@ -9,6 +9,6 @@ print "Content-type: text/html\n"
 # Instantiate a template file
 t = Template(file="cheetahtest.tmpl")
 
-# Variable 't', an instance of 
+# Print our template instance
 print t
 
